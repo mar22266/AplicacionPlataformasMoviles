@@ -18,6 +18,8 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="60dp"
             android:text="Login"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/colorTitle"
             android:textSize="60sp" />
 
         <TextView
@@ -55,10 +57,13 @@
             android:text="INICIAR SESION"
             android:backgroundTint="@color/btn_color"/>
         <TextView
+            android:id="@+id/textViewGoToRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="¿No tienes una cuenta?"
-            android:layout_marginTop="10dp"
+            android:text="¿No tienes una cuenta? Regístrate aquí"
+            android:textSize="15dp"
+            android:clickable="true"
+            android:layout_marginTop="20dp"
             android:layout_gravity="center"/>
     </LinearLayout>
 
