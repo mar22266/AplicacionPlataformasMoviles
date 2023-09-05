@@ -54,10 +54,10 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:layout_marginTop="50dp"
-            android:text="INICIAR SESION"
-            android:backgroundTint="@color/btn_color"/>
+            android:text="INICIAR SESION"/>
+
         <TextView
-            android:id="@+id/textViewGoToRegister"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¿No tienes una cuenta? Regístrate aquí"
